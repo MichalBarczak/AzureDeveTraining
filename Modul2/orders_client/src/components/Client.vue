@@ -1,20 +1,53 @@
+
+
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    
+  <div>
+  <table id="app" class="display table" width="100%">
+  <tbody>
+    <tr v-for="item of items" :key="item.id">
+      <td> {{ item }}</td>
+    </tr>
+  </tbody>
+</table>
+  <ul v-if="items && items.length">
+    <li v-for="item of items" :key="item.id">
+      <p><strong>{{item.name}}</strong></p>
+      <p>{{item.prize}}</p>
+    </li>
+  </ul>
+
+  <ul v-if="errors && errors.length" >
+    <li v-for="error of errors" :key="error.message">
+      {{error.message}}
+    </li>
+  </ul>
   </div>
 </template>
 
 <script>
+import axios from 'axios';
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  data() {
+    return {
+      items: [],
+      errors: []
+    }
+  },
+
+  created() {
+    axios.get(`https://apiorders.azurewebsites.net/api/items`)
+    .then(response => {
+      this.items = response.data
+    })
+    .catch(e => {
+      this.errors.push(e)
+    })
+   
   }
 }
+
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
