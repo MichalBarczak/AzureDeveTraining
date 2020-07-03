@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\WebAppi\\WebAppi\\WebAppi.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\AzureDeveTraining\\Modul2\\WebAppi\\WebAppi\\WebAppi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\WebAppi\\WebAppi\\WebAppi.csproj": {
+    "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\AzureDeveTraining\\Modul2\\WebAppi\\WebAppi\\WebAppi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\WebAppi\\WebAppi\\WebAppi.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\AzureDeveTraining\\Modul2\\WebAppi\\WebAppi\\WebAppi.csproj",
         "projectName": "WebAppi",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\WebAppi\\WebAppi\\WebAppi.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\AzureDeveTraining\\Modul2\\WebAppi\\WebAppi\\WebAppi.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\WebAppi\\WebAppi\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\AzureDeveTraining\\Modul2\\WebAppi\\WebAppi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

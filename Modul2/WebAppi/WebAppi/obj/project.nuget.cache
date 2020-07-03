@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2RRM1MjOXIo4fSKQzNE5ERXpkmMbhKwgG8EX9cZ68+saRP/3Yr/SuDIyfsH0TPU6oYTW1LhKCQ3t8/dXZZuPrA==",
+  "dgSpecHash": "6t1bVd0vtc5i6XEUIJsSMiz6DEinfmWpy9HPplCzM1MFYJSf1K4ttfEZVyijOlPv/0+GoyoQmIRYYgU6vKqq2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\WebAppi\\WebAppi\\WebAppi.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\SzkolenieChmura\\AzureDeveTraining\\Modul2\\WebAppi\\WebAppi\\WebAppi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
