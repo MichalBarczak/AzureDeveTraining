@@ -1,20 +1,25 @@
 
 
 <template>
-  <div>
-  <table id="app" class="display table" width="100%">
-  <tbody>
-    <tr v-for="item of items" :key="item.id">
-      <td> {{ item }}</td>
-    </tr>
-  </tbody>
-</table>
-  <ul v-if="items && items.length">
-    <li v-for="item of items" :key="item.id">
-      <p><strong>{{item.name}}</strong></p>
-      <p>{{item.prize}}</p>
-    </li>
-  </ul>
+<div class="d-flex justify-content-center">
+  <div class="col-md-2">
+    <table class="table text-center table-striped table-responsive table-dark">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Prize</th>
+                  </tr>
+            </thead>
+            <tbody>
+                <tr v-for="item of items" :key="item.id">
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.prize }}</td>               
+                </tr>
+            </tbody>
+        </table>
+  
 
   <ul v-if="errors && errors.length" >
     <li v-for="error of errors" :key="error.message">
@@ -22,6 +27,7 @@
     </li>
   </ul>
   </div>
+</div>
 </template>
 
 <script>
